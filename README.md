@@ -23,8 +23,8 @@ You should create one R script called run_analysis.R that does the following:
 * Created data set with training and test set
 * Selected columns with mean and std
 * Removed () and - in the column names
-* joined activity labels to data set
-* joined subject to data set
-* write file in csv file
+* Joined activity labels to data set
+* Joined subject to data set
+* Wrote file in csv file
 
 * Run source("run_analysis.R")
