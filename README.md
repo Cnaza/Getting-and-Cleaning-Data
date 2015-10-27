@@ -12,7 +12,9 @@ You should create one R script called run_analysis.R that does the following:
 ## Steps
  Libraries installed:
 1 - library(data.table)
+
 2 - library(plyr)
+
 3 - library(dplyr)
 
 
