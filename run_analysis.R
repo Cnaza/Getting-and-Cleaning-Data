@@ -1,8 +1,8 @@
 library(data.table)
 library(plyr)
 library(dplyr)
-#download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","zipfile.zip",method = "curl")
-#unzip("zipfile.zip")
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","zipfile.zip",method = "curl")
+unzip("zipfile.zip")
 
 #Merges the training and the test sets to create one data set
 features <- read.table("UCI HAR Dataset/features.txt")
