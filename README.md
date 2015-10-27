@@ -12,11 +12,10 @@ You should create one R script called run_analysis.R that does the following:
 ## Steps
 * Libraries installed:
 
-1 - library(data.table)
+- 1 library(data.table)
+- 2library(plyr)
 
-2 - library(plyr)
-
-3 - library(dplyr)
+- 3library(dplyr)
 
 
 * Downloaded and unzip the file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
