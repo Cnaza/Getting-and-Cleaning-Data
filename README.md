@@ -10,20 +10,18 @@ You should create one R script called run_analysis.R that does the following:
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Steps
-* Libraries installed:
+1. Libraries installed:
 
- 1 library(data.table)
- 
- 2 library(plyr)
- 
- 3 library(dplyr)
+ * library(data.table)
+ * library(plyr)
+ * library(dplyr)
 
 
-* Downloaded and unzip the file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-* Created data set with training and test set
-* Selected columns with mean and std
-* Removed () and - in the column names
-* Joined activity labels to data set
-* Joined subject to data set
-* Wrote file in csv file
-* Run source("run_analysis.R")
+2. Downloaded and unzip the file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+3. Created data set with training and test set
+4. Selected columns with mean and std
+5. Removed () and - in the column names
+6. Joined activity labels to data set
+7. Joined subject to data set
+8. Wrote file in csv file
+9. Run source("run_analysis.R")
