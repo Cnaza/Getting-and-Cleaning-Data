@@ -26,5 +26,4 @@ You should create one R script called run_analysis.R that does the following:
 * Joined activity labels to data set
 * Joined subject to data set
 * Wrote file in csv file
-
 * Run source("run_analysis.R")
