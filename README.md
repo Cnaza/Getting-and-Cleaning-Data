@@ -10,7 +10,6 @@ You should create one R script called run_analysis.R that does the following:
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Steps
-
 * Libraries installed:
 * library(data.table)
 * library(plyr)
@@ -21,8 +20,8 @@ You should create one R script called run_analysis.R that does the following:
 * Created data set with training and test set
 * Selected columns with mean and std
 * Removed () and - in the column names
-* join activity labels to data set
-* join subject to data set
+* joined activity labels to data set
+* joined subject to data set
 * write file in csv file
 
 * Run source("run_analysis.R")
